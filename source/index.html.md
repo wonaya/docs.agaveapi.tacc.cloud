@@ -2,9 +2,9 @@
 title: "TACC Cloud API Reference"
 
 language_tabs: # must be one of https://git.io/vQNgJ
-    - shell: "httpie"
+    - shell: "cURL"
     - plaintext: "CLI"
-    - python: "Python"
+ #  - python: "Python"
  # - javascript: "Agave.js"
 
 toc_footers:
