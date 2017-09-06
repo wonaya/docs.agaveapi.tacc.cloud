@@ -19,9 +19,9 @@ includes:
     - introduction/_conventions-response-customization.md
     - introduction/_status-codes.md.erb
     - sdk/_introduction.md
-# - documentation/_introduction.md
-# - tutorials/_introduction.md
-# - guides/_introduction.md
+    - documentation/_introduction.md
+    - tutorials/_introduction.md
+    - guides/_introduction.md
 # - guides/authorization/_introduction.md
 # - guides/authorization/_authorization.md.erb
 # - guides/clients/_introduction.md.erb
@@ -74,7 +74,7 @@ includes:
 # - guides/events/_introduction.md
 # - guides/events/_event-reference.md.erb
 # - guides/search/_introduction.md.erb
-# - tooling/introduction.md
+  - tooling/introduction.md
 # - tooling/agave-togo.md
 # - tooling/jupyter-hub.md
 # - tooling/command-line-interface.md
