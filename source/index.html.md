@@ -19,9 +19,9 @@ includes:
     - introduction/_conventions-response-customization.md
     - introduction/_status-codes.md.erb
     - sdk/_introduction.md
-    - documentation/_introduction.md
-    - tutorials/_introduction.md
-    - guides/_introduction.md
+#   - documentation/_introduction.md
+#   - tutorials/_introduction.md
+#   - guides/_introduction.md
 # - guides/authorization/_introduction.md
 # - guides/authorization/_authorization.md.erb
 # - guides/clients/_introduction.md.erb
