@@ -18,8 +18,8 @@ includes:
     - introduction/_conventions.md.erb
 #   - introduction/introduction
 # - introduction/_conventions.md.erb
-# - introduction/_conventions-response-customization.md
-# - introduction/_status-codes.md.erb
+    - introduction/_conventions-response-customization.md
+    - introduction/_status-codes.md.erb
 # - sdk/_introduction.md
 # - documentation/_introduction.md
 # - tutorials/_introduction.md
