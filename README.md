@@ -20,7 +20,7 @@ You can develop using a local native Ruby workflow, but that's not supported by 
  2. Clone *your forked repository* (not the original one) to your hard drive with `git clone https://github.com/YOURGITHUBUSERNAME/docs.agaveapi.tacc.cloud.git  agave-docs`
  3. `cd agave-docs`
  4. `git checkout -b <new_branch>`
- 4. `docker-compose -d up`
+ 4. `docker-compose up`
  5. View API docs at http://localhost:4567/
  6. Edit away inside `source/`
  7. Commit your changes and merge into `develop`
