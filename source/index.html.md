@@ -50,6 +50,34 @@ includes:
    - guides/jobs/_job-outputs.md.erb
    - guides/jobs/_the-job-lifecycle.md
    - guides/jobs/_job-permissions.md.erb
+   - guides/notifications/_introduction.md.erb
+   - guides/notifications/_notification-macros.md.erb
+   - guides/notifications/_notification-managing.md.erb
+   - guides/notifications/_notification-policy.md.erb
+   - guides/postits/_introduction.md.erb
+   - guides/postits/_postits-downloads.md.erb
+   - guides/postits/_postits-events.md.erb
+   - guides/metadata/_introduction.md.erb
+   - guides/metadata/_metadata-listing.md.erb
+   - guides/metadata/_metadata-validation.md.erb
+   - guides/metadata/_metadata-search.md.erb
+   - guides/metadata/_metadata-permissions.md.erb
+   - guides/metadata/_metadata-schema.md.erb
+   - guides/monitors/_introduction.md.erb
+   - guides/profiles/_introduction.md.erb
+   - guides/tags/_introduction.md.erb
+   - guides/tags/_tags-listing.md.erb
+   - guides/tags/_tags-associations.md.erb
+   - guides/tags/_tags-search.md.erb
+   - guides/tags/_tags-permissions.md.erb
+   - guides/uuids/_introduction.md.erb
+   - guides/events/_introduction.md
+   - guides/events/_event-reference.md.erb
+   - guides/search/_introduction.md.erb
+   - tooling/introduction.md
+   - tooling/agave-togo.md
+   - tooling/jupyter-hub.md
+   - tooling/command-line-interface.md
 
 search: true
 ---
