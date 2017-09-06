@@ -15,7 +15,7 @@ includes:
     - _kitten.md
     - _errors.md
     - introduction/_introduction.md
-    - introduction/_conventions.md.erbincludes:
+    - introduction/_conventions.md.erb
 # - introduction/introduction
 # - introduction/_conventions.md.erb
 # - introduction/_conventions-response-customization.md
