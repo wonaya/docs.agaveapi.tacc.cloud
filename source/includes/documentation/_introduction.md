@@ -1,7 +1,4 @@
----
-layout: openapi
----
-# Web API  
+## Documentations
 
 The Agave Science APIs power the Science-as-a-Service functionality of the Agave Platform. These web APIs allow you to manage all aspects of your code, collaborations, data, and your digital lab. 
 

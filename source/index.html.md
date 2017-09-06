@@ -21,7 +21,7 @@ includes:
    - sdk/_introduction.md
    - documentation/_introduction.md
    - tutorials/_introduction.md
-#   - guides/_introduction.md
+   - guides/_introduction.md
 # - guides/authorization/_introduction.md
 # - guides/authorization/_authorization.md.erb
 
