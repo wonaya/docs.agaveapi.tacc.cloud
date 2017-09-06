@@ -24,6 +24,9 @@ includes:
    - guides/_introduction.md
    - guides/authorization/_introduction.md
    - guides/authorization/_authorization.md.erb
+   - guides/clients/_introduction.md.erb
+   - guides/systems/_introduction.md.erb
+   - guides/systems/_systems-storage.md.erb
 
 search: true
 ---
