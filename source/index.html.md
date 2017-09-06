@@ -14,6 +14,8 @@ toc_footers:
 includes:
     - _kitten.md
     - _errors.md
+    - introduction/introduction.md
+    - introduction/_conventions.md.erbincludes:
 # - introduction/introduction
 # - introduction/_conventions.md.erb
 # - introduction/_conventions-response-customization.md
