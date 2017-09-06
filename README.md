@@ -6,12 +6,13 @@ This is the working repository for TACC's version of the Agave Science-as-a-Serv
 
 ### Prerequisites:
 
- - **Linux or Mac OS X**
+ - Linux or Mac OS X
+    - _We don't have enough experience with Docker for Windows to officially support it_
  - Docker CE 17.07+
  - Git 2.12+
  - Proficiency with Markdown
 
-You can develop using the local Ruby-native workflow, but that's not supported by our project.
+You can develop using a local native Ruby workflow, but that's not supported by our project.
 
 ### Quick Set Up
 
@@ -23,7 +24,7 @@ You can develop using the local Ruby-native workflow, but that's not supported b
  5. View API docs at http://localhost:4567/
  6. Edit away inside `source/`
  7. Commit your changes and merge into `develop`
- 8. Issue a PR against the upstream `agaveapi.docs.tacc.cloud` repository
+ 8. Issue a PR against the upstream `TACC/agaveapi.docs.tacc.cloud` repository
 
 Learn more about [editing Slate markdown](https://github.com/lord/slate/wiki/Markdown-Syntax).
 Learn [how to publish your docs](https://github.com/lord/slate/wiki/Deploying-Slate) to GitHub.
