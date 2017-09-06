@@ -12,15 +12,15 @@ toc_footers:
     - <a href='http://status.agaveapi.co' target='_blank'>Platform Status</a>
 
 includes:
-#    - _kitten.md
-#    - _errors.md
-    - introduction/_introduction.md
-    - introduction/_conventions.md.erb
-#   - introduction/_conventions-response-customization.md
-#   - introduction/_status-codes.md.erb
-   - sdk/_introduction.md
-#   - documentation/_introduction.md
-#   - tutorials/_introduction.md
+#  - _kitten.md
+#  - _errors.md
+   - introduction/_introduction.md
+   - introduction/_conventions.md.erb
+#  - introduction/_conventions-response-customization.md
+#  - introduction/_status-codes.md.erb
+#  - sdk/_introduction.md
+#  - documentation/_introduction.md
+#  - tutorials/_introduction.md
 #   - guides/_introduction.md
 # - guides/authorization/_introduction.md
 # - guides/authorization/_authorization.md.erb
