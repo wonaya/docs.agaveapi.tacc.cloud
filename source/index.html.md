@@ -36,6 +36,20 @@ includes:
    - guides/files/_files-metadata.md.erb
    - guides/files/_files-permissions.md.erb
    - guides/files/_files-publishing.md.erb
+   - guides/apps/_introduction.md.erb
+   - guides/apps/_app-history.md.erb
+   - guides/apps/_app-inputs-and-parameters-tutorial.md.erb
+   - guides/apps/_app-wrapper-tutorial.md.erb
+   - guides/apps/_app-permissions-tutorial.md.erb
+   - guides/apps/_app-scope.md.erb
+   - guides/apps/_app-cloning.md.erb
+   - guides/jobs/_introduction.md.erb
+   - guides/jobs/_job-submission.md.erb
+   - guides/jobs/_job-monitoring.md.erb
+   - guides/jobs/_job-managing.md.erb
+   - guides/jobs/_job-outputs.md.erb
+   - guides/jobs/_the-job-lifecycle.md
+   - guides/jobs/_job-permissions.md.erb
 
 search: true
 ---
