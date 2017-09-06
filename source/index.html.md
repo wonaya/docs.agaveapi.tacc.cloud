@@ -27,6 +27,15 @@ includes:
    - guides/clients/_introduction.md.erb
    - guides/systems/_introduction.md.erb
    - guides/systems/_systems-storage.md.erb
+   - guides/systems/_systems-execution.md.erb
+   - guides/systems/_systems-management.md.erb
+   - guides/systems/_systems-roles.md.erb
+   - guides/systems/_systems-scopes.md.erb
+   - guides/files/_introduction.md.erb
+   - guides/files/_files-provenance.md.erb
+   - guides/files/_files-metadata.md.erb
+   - guides/files/_files-permissions.md.erb
+   - guides/files/_files-publishing.md.erb
 
 search: true
 ---
