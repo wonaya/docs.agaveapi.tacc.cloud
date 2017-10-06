@@ -24,4 +24,3 @@ computing (HPC), high throughput computing (HTC), Cloud, and Big Data resources 
 
 The Agave documentation site contains documentation, guides, tutorials, and lots of examples to help you build your own digital lab.
 
-<aside class="info">If you came here looking for a UI to interact with the platform and kick the tires, please see our reference web application, Agave ToGo, at <a href="http://togo.agaveapi.co/">http://togo.agaveapi.co/</a>.</aside>

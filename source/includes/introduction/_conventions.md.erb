@@ -1,6 +1,6 @@
 ## Conventions
 
-Throughout the documentation you will regularly encounter the following variables. These represent user-specific values that should be replaced when attempting any of the calls using your account. Once you log into this site, these values will be replaced with values appropriate for you to use when copying and pasting the examples on your own.
+Throughout the documentation you will regularly encounter the following variables. These represent user-specific values that should be replaced when attempting any of the calls using your account. 
 
 <%= partial "includes/tables/4" %>
 
@@ -54,16 +54,16 @@ Throughout the documentation you will regularly encounter the following variable
 }
 ```
 
-When describing the JSON objects passed back and forth with the APIs, Javascript dot notation will be used to refer to individual properties. For example, consider the following JSON object.
+Javascript dot notation will be used to refer to individual properties of JSON objects. For example, consider the following JSON object.
 
 * `active` refers to the top level `active` attribute in the response object.
-* `lastCheck.[].result` generically refers to the result attribute contained within any of the objects contained in the `lastCheck` array.
-* `lastCheck.[0].result` specifically refers to the result attribute contained within the first object in the `lastCheck` array.
+* `lastCheck.[].result` refers to the result attribute contained within any of the objects contained in the `lastCheck` array.
+* `lastCheck.[0].result` refers to the result attribute contained within the first object in the `lastCheck` array.
 * `_links.self.href` refers to the href attribute in the checks object within the `_links` object.
 
 ## Versioning
 
-The current major version of Agave is given in the URI immediately following the API resource name. For example, if the endpoint is `https://public.tenants.agaveapi.co/jobs/v2/`, the API version would be `v2`. The current major version of agave is v2.
+The current major version of Agave is given in the URI immediately following the API resource name. For example, if the endpoint is `https://public.tenants.agaveapi.co/jobs/v2/`, the API version would be `v2`. The current major version of agave is v2. (Full version: 2.1.6)
 
 ### Slugs
 
@@ -77,24 +77,17 @@ In certain situations, usually where file system paths and names are involved in
 
 Agave uses SSL to secure communication with the clients. If HTTPS is not specified in the request, the request will be redirected to a secure channel.
 
-### Rate limiting
-
-To make the API fast for everybody, rate limits apply. Unsigned requests are processed at the lowest rate limit. Signed requests with a valid access token benefit from higher rate limits — this is true even if endpoint doesn’t require an access token to be passed in the call.
-
 ### Requests
 
-The Agave API is based on <a title="REST" href="http://en.wikipedia.org/wiki/Representational_state_transfer" target="_blank">REST</a> principles: data resources are accessed via standard HTTPS requests in UTF-8 format to an API endpoint. Where possible, the API strives to use appropriate HTTP verbs for each action
+The Agave API is based on <a title="REST" href="http://en.wikipedia.org/wiki/Representational_state_transfer" target="_blank">REST</a> principles: data resources are accessed via standard HTTPS requests in UTF-8 format to an API endpoint. The API uses appropriate HTTP verbs for each action whenever possible. 
 
 <%= partial "includes/tables/3" %>
 
-#### Standard query parameters
+#### Common API query parameters
 
 Several URL query parameters are common across all services. The following table lists them for reference
 
 <%= partial "includes/tables/77" %>
-
-
-#### Experimental query parameters
 
 Starting with the 2.1.10 release, two new query parameters have been introduced into the jobs api as an experimental feature. The following table lists them for reference
 
@@ -103,7 +96,7 @@ Starting with the 2.1.10 release, two new query parameters have been introduced 
 
 ### Responses
 
-All data is received and returned as a JSON object. The <a title="Live Documentation" href="/live-docs/">Live Docs</a> provide a description of all the retrievable objects.
+All data is received and returned as a JSON object. 
 
 #### Response Details
 
@@ -111,7 +104,7 @@ All data is received and returned as a JSON object. The <a title="Live Documenta
 {
     "status": "error",
     "message": "Permission denied. You do not have permission to view this system",
-    "version": "2.1.10-r8228",
+    "version": "2.1.16-r8228",
     "result": {}
 }
 ```
