@@ -144,14 +144,11 @@ Note that offset numbering is zero-based and that omitting the offset parameter 
 
 Check the documentation for the specific endpoint to see specific information.
 
-<aside class="danger">Default pagination size is a tenant-specific configuration value and may vary from tenant to tenant. Check with your admin for the default pagination size configured for your tenant.</aside>
-
-
 ### Timestamps
 
 Timestamps are returned in <a href="http://en.wikipedia.org/wiki/ISO_8601" target="_blank">ISO 8601</a> format offset for Central Standard Time (-05:00) `YYYY-MM-DDTHH:MM:SSZ-05:00`.
 
-### CORS
+### Cross Origin Resource Sharing (CORS)
 
 Many modern applications choose to implement client-server communication exclusively in Javascript. For this reason, Agave provides <a href="http://en.wikipedia.org/wiki/Cross-origin_resource_sharing" title="CORS" target="_blank">cross-origin resource sharing (CORS)</a> support so AJAX requests from a web browser are not constrained by cross-origin requests and can safely make GET, PUT, POST, and DELETE requests to the API.
 
@@ -178,4 +175,4 @@ Many modern applications choose to implement client-server communication exclusi
 }
 ```
 
-Agave strives to be a fully descriptive hypermedia API. Given any endpoint, you should be able to walk the API through the links provided in the `_links` object in each resource representation. The following user metadata object contains two referenced objects. The first, `self` is common to all objects, and contains the URL of that object. The second, `owner` contains the URL to the profile of the user who created the object.
+Agave is a fully descriptive hypermedia API. Given any endpoint, you should be able to walk the API through the links provided in the `_links` object in each resource representation. The following user metadata object contains two referenced objects. The first, `self` is common to all objects, and contains the URL of that object. The second, `owner` contains the URL to the profile of the user who created the object.
