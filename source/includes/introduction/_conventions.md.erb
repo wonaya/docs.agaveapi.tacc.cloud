@@ -119,6 +119,44 @@ Here, for example, is the response that occurs when trying to fetch information 
 
 In situations where you do not care to parse the wrapper for the raw response data, you may request a *naked* response from the API by adding `naked=true` in to the request URL. This will return just the value of the `result` attribute in the response wrapper.
 
+naked=true 
+```{
+  "id" : "data.iplantcollaborative.org",
+  "name" : "CyVerse Data Store",
+  "type" : "STORAGE",
+  "description" : "CyVerse's petabyte-scale, cloud-based data management service.",
+  "status" : "UP",
+  "public" : true,
+  "lastUpdated" : "2017-10-10T00:00:00.000-05:00",
+  "default" : true,
+  "_links" : {
+    "self" : {
+      "href" : "https://agave.iplantc.org/systems/v2/data.iplantcollaborative.org"
+    }
+  }
+}```
+naked=false
+```{
+  "status" : "success",
+  "message" : null,
+  "version" : "2.2.8-rff32e62",
+  "result" : [ {
+    "id" : "data.iplantcollaborative.org",
+    "name" : "CyVerse Data Store",
+    "type" : "STORAGE",
+    "description" : "CyVerse's petabyte-scale, cloud-based data management service.",
+    "status" : "UP",
+    "public" : true,
+    "lastUpdated" : "2017-10-10T00:00:00.000-05:00",
+    "default" : true,
+    "_links" : {
+      "self" : {
+        "href" : "https://agave.iplantc.org/systems/v2/data.iplantcollaborative.org"
+      }
+    }
+  } ]
+}```
+
 ### Formatting
 
 By default, all responses are serialized JSON. To receive pre-formatted JSON, add `pretty=true` to any query string.
