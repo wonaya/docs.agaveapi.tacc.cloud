@@ -65,9 +65,9 @@ Javascript dot notation will be used to refer to individual properties of JSON o
 
 The current major version of Agave is given in the URI immediately following the API resource name. For example, if the endpoint is `https://public.tenants.agaveapi.co/jobs/v2/`, the API version would be `v2`. The current major version of agave is v2. (Full version: 2.1.6)
 
-### Slugs
+### Special Character Handling
 
-In certain situations, usually where file system paths and names are involved in some way, Agave will generate slugify object names to make them safe to use. Slugs will be created on the fly by applying the following rules:
+In certain situations, usually where file system paths and names are involved in some way, Agave will generate sanitized object names ("slugs") to make them safe to use. Slugs will be created on the fly by applying the following rules:
 
 1. Lowercase the string
 2. Replace spaces with a dash
@@ -104,7 +104,7 @@ All data is received and returned as a JSON object.
 {
     "status": "error",
     "message": "Permission denied. You do not have permission to view this system",
-    "version": "2.1.16-r8228",
+    "version": "2.2.8-rff32e62",
     "result": {}
 }
 ```
