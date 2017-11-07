@@ -2,3 +2,5 @@
 2. What is Agave API
 3. Basic terminology
 4. Structure
+5. Authentication
+6. Systems
